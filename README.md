@@ -17,3 +17,7 @@ Use the `.apk` file, which is (hopefully kept) up to date with the current versi
 ### Build via *Android Studio*
 
 As this is just the pushed [*Android Studio*](https://developer.android.com/studio) project of E<sup>2</sup>VA, one can just build the app, create own modules, optimize communication between external client and E<sup>2</sup>VA etc.
+
+## Emulator Hardware Profile
+
+Up to this point, an AVD (Android Virtual Device) to run E<sup>2</sup>VA can be created by either using a predefined hardware profile in Android Studio (called *Pixel 3*), or by importing the hardware profile in this repository.
