@@ -94,3 +94,27 @@ add_library(
 
         modules/PoCPrimaryPoisoning.c
 )
+
+add_library(
+        PoCMemoryProbing
+
+        SHARED
+
+        modules/PoCMemoryProbingModule.c
+)
+
+add_library(
+        CallBombModule
+
+        SHARED
+
+        modules/CallBombModule.c
+)
+
+add_library(
+        PoCMterpModule
+
+        SHARED
+
+        modules/PoCMterpModule.c
+)
