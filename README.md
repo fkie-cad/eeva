@@ -2,7 +2,11 @@
 
 E<sup>2</sup>VA is an app allowing for binary exploitation on Android OS. It allows an external user to select and communicate with modules that contain severe vulnerabilities. Therefore, E<sup>2</sup>VA enables research on the applicability of *standard* binary exploitation techniques to Android apps, which call native functions.
 
-E<sup>2</sup>VA stands for *Exploitation Experience (with) Vulnerable App*. It is the foundation of a series of [blog posts](https://lolcads.github.io/posts/2022/11/diving_into_the_art_of_userspace_exploitation_under_android/) that describe exploitation of some already existing vulnerable modules. The app runs on a Pixel 3 emulator (without Google Play for root access), running Android 12 (API level 31), and an x86 - 64 architecture. Other setups have not yet been tested!
+E<sup>2</sup>VA stands for *Exploitation Experience (with) Vulnerable App*. It is the foundation of a series of [blog posts](https://lolcads.github.io/posts/2022/11/diving_into_the_art_of_userspace_exploitation_under_android/) that describe exploitation of some already existing vulnerable modules. 
+
+![E2VA Architecture](https://raw.githubusercontent.com/fkie-cad/eeva/main/assets/eeva.svg)
+
+The app runs on a Pixel 3 emulator (without Google Play for root access), running Android 12 (API level 31), and an x86 - 64 architecture. Other setups have not yet been tested!
 
 ## Installation
 
